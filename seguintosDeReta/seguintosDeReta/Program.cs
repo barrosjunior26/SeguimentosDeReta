@@ -26,11 +26,18 @@ namespace seguintosDeReta
             //Processamento dos dados e condição para formar um triângulo
             if (seg1 >= seg2 + seg3)
             {
-                Console.WriteLine("Não~é possível formar um triângulo com os valores informados!");
+                Console.WriteLine("Não é possível formar um triângulo com os valores informados!");
+            }
+            else if (seg2 >= seg1 + seg3)
+            {
+                Console.WriteLine("Não é possível formar um triângulo com os valores informados!");
+            }else if (seg3 >= seg1 + seg2)
+            {
+                Console.WriteLine("Não é possível formar um triângulo com os valores informados!");
             }
             else
             {
-                Console.WriteLine($"Você conseguiu formar um triângulo, pois o a soma de {seg2} e {seg3} é maior que a base ({seg1}) informada.\nVeja:\nBase: {seg1} < que a soma de ({seg2} + {seg3})");
+                Console.WriteLine("Você conseguiu formar um triângulo!");
             }
             Console.ReadKey();
         }
