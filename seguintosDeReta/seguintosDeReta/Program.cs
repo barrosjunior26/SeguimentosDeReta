@@ -16,28 +16,38 @@ namespace seguintosDeReta
             retas.Matematicamente, para três segmentos formarem um triângulo, o comprimento
             de cada lado deve ser menor que a soma dos outros dois.*/
 
-            Console.Write("Informe o valor do primeiro seguimento: ");
-            double seg1 = double.Parse(Console.ReadLine());
-            Console.Write("Informe o valor do segundo seguimento: ");
-            double seg2 = double.Parse(Console.ReadLine());
-            Console.Write("Agora informe o valor do terceiro seguimento: ");
-            double seg3 = double.Parse(Console.ReadLine());
+            /*30) [DESAFIO] Refaça o algoritmo 25, acrescentando o recurso de mostrar que tipo
+            de triângulo será formado:
+            -EQUILÁTERO: todos os lados iguais
+            -ISÓSCELES: dois lados iguais
+            - ESCALENO: todos os lados diferentes*/
+
+            Console.Write("Informe o valor da base do seguimento: ");
+            double baSe = double.Parse(Console.ReadLine());
+            Console.Write("Informe o valor do lado A do seguimento: ");
+            double ladoA = double.Parse(Console.ReadLine());
+            Console.Write("Agora informe o valor do labo B do seguimento: ");
+            double ladoB = double.Parse(Console.ReadLine());
             //
             //Processamento dos dados e condição para formar um triângulo
-            if (seg1 >= seg2 + seg3)
+            if (baSe < ladoA + ladoB)
             {
-                Console.WriteLine("Não é possível formar um triângulo com os valores informados!");
-            }
-            else if (seg2 >= seg1 + seg3)
-            {
-                Console.WriteLine("Não é possível formar um triângulo com os valores informados!");
-            }else if (seg3 >= seg1 + seg2)
-            {
-                Console.WriteLine("Não é possível formar um triângulo com os valores informados!");
+                Console.WriteLine("Você conseguiu formar um triângulo!");
+                if(baSe == ladoA && baSe == ladoB)
+                {
+                    Console.WriteLine("O tipo de triângulo é EQUILÁTERO!");
+                }else if (baSe == ladoA || baSe == ladoB || ladoA == ladoB)
+                {
+                    Console.WriteLine("O tipo de triângulo é ISÓSCELES");
+                }
+                else
+                {
+                    Console.WriteLine("O tipo de triângulo é ESCALENO");
+                }
             }
             else
             {
-                Console.WriteLine("Você conseguiu formar um triângulo!");
+                Console.WriteLine("Não foi possível formar um triângulo com os valores informados.");
             }
             Console.ReadKey();
         }
