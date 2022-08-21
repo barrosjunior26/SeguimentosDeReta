@@ -1,0 +1,8 @@
+C:\PerfLogs\workspace\Seguimentos de reta\seguintosDeReta\seguintosDeReta\bin\Debug\seguintosDeReta.exe.config
+C:\PerfLogs\workspace\Seguimentos de reta\seguintosDeReta\seguintosDeReta\bin\Debug\seguintosDeReta.exe
+C:\PerfLogs\workspace\Seguimentos de reta\seguintosDeReta\seguintosDeReta\bin\Debug\seguintosDeReta.pdb
+C:\PerfLogs\workspace\Seguimentos de reta\seguintosDeReta\seguintosDeReta\obj\Debug\seguintosDeReta.csproj.AssemblyReference.cache
+C:\PerfLogs\workspace\Seguimentos de reta\seguintosDeReta\seguintosDeReta\obj\Debug\seguintosDeReta.csproj.SuggestedBindingRedirects.cache
+C:\PerfLogs\workspace\Seguimentos de reta\seguintosDeReta\seguintosDeReta\obj\Debug\seguintosDeReta.csproj.CoreCompileInputs.cache
+C:\PerfLogs\workspace\Seguimentos de reta\seguintosDeReta\seguintosDeReta\obj\Debug\seguintosDeReta.exe
+C:\PerfLogs\workspace\Seguimentos de reta\seguintosDeReta\seguintosDeReta\obj\Debug\seguintosDeReta.pdb
